@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "RethinkSans";
+  src: local("RethinkSans"), url("./../font/RethinkSans-Regular.ttf") format("TrueType");
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "RethinkSans";
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 255, 255, 0.137);
+}
+body #salut {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 120px;
+  width: 350px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.156);
+}
+body #salut h1 {
+  color: rgb(0, 0, 0);
+}
+body #salut #btnNouvelleDiv {
+  background-color: rgb(223, 127, 255);
+  height: 35px;
+  width: 100px;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.156);
+  font-size: 18px;
+}
+body .souhaite, body .joyeux, body .anniversaire {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70px;
+  width: 220px;
+  margin: 5px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.156);
+}/*# sourceMappingURL=style.css.map */
